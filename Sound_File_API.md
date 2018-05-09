@@ -22,11 +22,13 @@ Uploads a sound file.
   {sound file}
   ```
 * **Headers**
+
   **Bearer:** The access token. Required.
   **Content-Type:** The format of the sound file. Optional. Possible values:  `audio/mpeg`, `audio/xwav`.
   **Accept:** The response format. Optional. Possible values: `application/xml`, `application/json`.
 
 * **Success Response**
+
   Code: `200`
   Response Header:
   ```
@@ -37,6 +39,7 @@ Uploads a sound file.
   ```
   
 * **Response Codes and Errors**
+
   **200:** OK. Successful operation.
   **401:** Unauthorized. Invalid access token.
   **413:** Payload too large. The sound file is too long.
