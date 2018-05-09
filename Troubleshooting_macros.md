@@ -8,4 +8,24 @@ To run macros, you must first add the Developer tab to the ribbon. To add it, fo
 
 1. Right click on the ribbon.
 2. Select **Customize the ribbon**. The **Word Options** window opens.
-![Developer Tab](https://imgur.com/a/7EUpYPB)
+3. Choose the Developer option from the list.
+4. Click Ok. You now have access to the **Developer** tab.
+
+## Creating and running a macro
+To create and run a macro, follow these steps:
+
+1. Go to **Developer** and select **Macros**. A new dialog box opens.
+2. Name your macro. For example, Tables.
+3. Click Create. A Microsoft Visual Basic for Apps window opens.
+4. Copy the following macro into the text editor:
+
+```
+   Sub ApplyTableStyle()
+    For Each tbl In ActiveDocument.Tables
+            tbl.Style = "PurpleTable1"
+    Next
+End Sub 
+```
+5. Click **Run Sub**.
+6. Click Save and close the Visual Basic window. The table style is now applied. 
+
