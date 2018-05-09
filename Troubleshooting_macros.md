@@ -8,7 +8,10 @@ To run macros, you must first add the Developer tab to the ribbon. To add it, fo
 
 1. Right click on the ribbon.
 2. Select **Customize the ribbon**. The **Word Options** window opens.
-3. Choose the Developer option from the list.
+3. Choose the **Developer** option from the list.
+
+![developer](https://github.com/marchaugust/files/blob/master/developer.JPG)
+
 4. Click Ok. You now have access to the **Developer** tab.
 
 ## Creating and running a macro
@@ -27,5 +30,8 @@ To create and run a macro, follow these steps:
 End Sub 
 ```
 5. Click **Run Sub**.
+
+![run_sub](https://github.com/marchaugust/files/blob/master/run_sub.JPG)
+
 6. Click Save and close the Visual Basic window. The table style is now applied. 
 
