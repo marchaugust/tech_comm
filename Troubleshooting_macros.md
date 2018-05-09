@@ -12,14 +12,14 @@ To run macros, you must first add the Developer tab to the ribbon. To add it, fo
 
 ![developer](https://github.com/marchaugust/files/blob/master/developer.JPG)
 
-4. Click Ok. You now have access to the **Developer** tab.
+4. Click **Ok**. You now have access to the **Developer** tab.
 
 ## Creating and running a macro
 To create and run a macro, follow these steps:
 
 1. Go to **Developer** and select **Macros**. A new dialog box opens.
 2. Name your macro. For example, Tables.
-3. Click Create. A Microsoft Visual Basic for Apps window opens.
+3. Click **Create**. A Microsoft Visual Basic for Apps window opens.
 4. Copy the following macro into the text editor:
 
 ```
@@ -33,5 +33,5 @@ End Sub
 
 ![run_sub](https://github.com/marchaugust/files/blob/master/run_sub.JPG)
 
-6. Click Save and close the Visual Basic window. The table style is now applied. 
+6. Click **Save** and close the Visual Basic window. The table style is now applied. 
 
